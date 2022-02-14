@@ -16,7 +16,7 @@ export class CustomerService {
       .toPromise().then(
        response =>{
            console.log("from service");
-           this.httpClient=response as Hotel[]
+           
           }
          );
         }
